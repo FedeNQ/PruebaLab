@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">PruebaLab</string>
+    <string name="titulo">Titulo</string>
+    <string name="name">Name</string>
+    <string name="probando">probando</string>
+    <string name="editTitulo">Ingrese el titulo...</string>
+    <string name="descripcion">Descripcion(opcional)</string>
+    <string name="editDescripcion">Ingrese una descripcion del producto...</string>
+    <string name="correo">Correo de contacto</string>
+    <string name="editCorreo">Ingrese un correo...</string>
+    <string name="precio">Precio (en pesos)</string>
+    <string name="editPrecio">Ingrese un precio...</string>
+    <string name="categoria">Categoria</string>
+    <string name="envio">Ofrecer descuento de envio</string>
+    <string-array name="categorias">
+        <item>INDUMENTARIA</item>
+        <item>ELECTRONICA</item>
+        <item>ENTRETENIMIENTO</item>
+        <item>JARDIN</item>
+        <item>VEHICULOS</item>
+        <item>JUGUETES</item>
+    </string-array>
 </resources>
