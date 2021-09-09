@@ -12,6 +12,12 @@
     <string name="editPrecio">Ingrese un precio...</string>
     <string name="categoria">Categoria</string>
     <string name="envio">Ofrecer descuento de envio</string>
+    <string name="retiro">Retiro en persona</string>
+    <string name="direccion">Direccion de Retiro</string>
+    <string name="editDireccion">Ingrese una direccion...</string>
+    <string name="terminos">Aceptar los terminos y condiciones</string>
+    <string name="minDesc">0%</string>
+    <string name="maxDesc">100%</string>
     <string-array name="categorias">
         <item>INDUMENTARIA</item>
         <item>ELECTRONICA</item>
