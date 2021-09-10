@@ -18,6 +18,7 @@
     <string name="terminos">Aceptar los terminos y condiciones</string>
     <string name="minDesc">0%</string>
     <string name="maxDesc">100%</string>
+    <string name="publicar">Publicar</string>
     <string-array name="categorias">
         <item>INDUMENTARIA</item>
         <item>ELECTRONICA</item>
