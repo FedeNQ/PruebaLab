@@ -1,5 +1,9 @@
 package com.example.pruebalab;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Color;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -25,8 +29,11 @@ public class MainActivity extends AppCompatActivity {
     CheckBox retiro, terminos;
     Pattern patronCadena, patronCorreo;
     Button botonPublicar;
-    TextView descuentoActual;
+    TextView descuentoActual, seleccionarCategoria;
     LinearLayout descuentoComponente, direccionComponente;
+    private static final int codigoCategoria = 42241;
+    Categoria categoria;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         editCorreo=findViewById(R.id.editCorreo);
         editPrecio=findViewById(R.id.editPrecio);
         editDireccion=findViewById(R.id.editDireccion);
-        cambiarCategoria=findViewById(R.id.cambiarCategoria);
+        seleccionarCategoria=findViewById(R.id.seleccionarCategoria);
         envio=findViewById(R.id.envio);
         cambiarDescuento=findViewById(R.id.cambiarDescuento);
         retiro=findViewById(R.id.retiro);
@@ -52,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         //https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
         patronCadena = Pattern.compile("([a-zA-Z]|\\d|,|\\.|\\n)*");
         patronCorreo = Pattern.compile("([a-zA-Z]|\\d|,|\\.|\\n)*@([a-zA-Z]|\\d|,|\\.|\\n)*.([a-zA-Z]|\\d|,|\\.|\\n)*");
+
 
 
         envio.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -109,6 +117,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        seleccionarCategoria.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), ActivityCategoria.class);
+                    startActivityForResult(intent, codigoCategoria);
+                }
+            }
+        );
 
     }
 
@@ -128,6 +144,11 @@ public class MainActivity extends AppCompatActivity {
         if(!correoValido(editCorreo.getText().toString())){
             errorMsgs.add("El campo Correo posee un formato invalido");
         }
+
+        if(seleccionarCategoria.getText().equals("Seleccionar Categoria")){
+            errorMsgs.add("No se selecciono una categoria");
+        }
+
         if(editPrecio.getText().toString().isEmpty()) {
             errorMsgs.add("El campo Precio es obligatorio");
         }
@@ -167,5 +188,14 @@ public class MainActivity extends AppCompatActivity {
             cont++;
         }
         return ret&(cont>=3);
+    }
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data){
+        if (resultCode == Activity.RESULT_OK) {
+            if (requestCode == codigoCategoria) {
+
+                seleccionarCategoria.setText(data.getExtras().getString("nombre"));
+                seleccionarCategoria.setBackgroundColor(Color.parseColor(data.getExtras().getString("color")));
+            }
+        }
     }
 }

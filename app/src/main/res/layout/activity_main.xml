@@ -92,12 +92,16 @@
         android:textColor="@color/purple_500"
         android:textSize="15sp" />
 
-    <Spinner
-        android:id="@+id/cambiarCategoria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:entries="@array/categorias"
-        android:minHeight="48dp"/>
+    <TextView
+        android:id="@+id/seleccionarCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:text="Seleccionar Categoria"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
 
     <Switch
         android:id="@+id/envio"

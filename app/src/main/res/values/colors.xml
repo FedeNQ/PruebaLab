@@ -8,4 +8,41 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FF5722</color>
+    <color name="probando">#FF5676</color>
+
+    <color name="accesoriosVehiculos">#F44336</color>
+    <color name="agro">#E91E63</color>
+    <color name="alimentos">#9C27B0</color>
+    <color name="animales">#673AB7</color>
+    <color name="antiguedades">#3F51B5</color>
+    <color name="arte">#2196F3</color>
+    <color name="autos">#03A9F4</color>
+    <color name="bebes">#00BCD4</color>
+    <color name="belleza">#009688</color>
+    <color name="camaras">#4CAF50</color>
+    <color name="celulares">#8BC34A</color>
+    <color name="computacion">#CDDC39</color>
+    <color name="consolas">#FFEB3B</color>
+    <color name="construccion">#FFC107</color>
+    <color name="deportes">#FF9800</color>
+    <color name="electrodomesticos">#FF5722</color>
+    <color name="electronica">#FF9800</color>
+    <color name="entradas">#FFC107</color>
+    <color name="herramientas">#FFEB3B</color>
+    <color name="hogar">#CDDC39</color>
+    <color name="industrias">#8BC34A</color>
+    <color name="inmuebles">#4CAF50</color>
+    <color name="instrumentos">#009688</color>
+    <color name="joyas">#00BCD4</color>
+    <color name="juegos">#03A9F4</color>
+    <color name="libros">#2196F3</color>
+    <color name="musica">#3F51B5</color>
+    <color name="ropa">#673AB7</color>
+    <color name="salud">#9C27B0</color>
+    <color name="servicios">#E91E63</color>
+    <color name="souvenirs">#F44336</color>
+    <color name="otrasCategorias">#DDF46236</color>
+
+
+
 </resources>

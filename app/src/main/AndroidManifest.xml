@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaLab">
         <activity
+            android:name=".ActivityCategoria"
+            android:exported="true"
+            android:label="@string/title_activity_categoria"
+            android:theme="@style/Theme.PruebaLab.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -27,4 +27,47 @@
         <item>VEHICULOS</item>
         <item>JUGUETES</item>
     </string-array>
+    <string name="title_activity_categoria">ActivityCategoria</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="accesoriosVehiculos">Accesorios para Vehiculos</string>
+    <string name="agro">Agro</string>
+    <string name="alimentos">Alimentos y Bebidas</string>
+    <string name="animales">Animales y Mascotas</string>
+    <string name="antiguedades">Antiguedades y Colecciones</string>
+    <string name="arte">Arte, Libreria y Merceria</string>
+    <string name="autos">Autos, Motos y Otros</string>
+    <string name="bebes">Bebes</string>
+    <string name="belleza">Belleza y Cuidado Personal</string>
+    <string name="camaras">Camaras y Accesorios</string>
+    <string name="celulares">Celulares y Telefonos</string>
+    <string name="computacion">Computacion</string>
+    <string name="consolas">Consolas y Videojuegos</string>
+    <string name="construccion">Construccion</string>
+    <string name="deportes">Deportes y Fitness</string>
+    <string name="electrodomesticos">Electrodomesticos y Aires Ac.</string>
+    <string name="electronica">Electronica, Audio y Video</string>
+    <string name="entradas">Entradas para Eventos</string>
+    <string name="herramientas">Herramientas</string>
+    <string name="hogar">Hogar, Muebles y Jardin</string>
+    <string name="industrias">Industrias y Oficinas</string>
+    <string name="inmuebles">Inmuebles</string>
+    <string name="instrumentos">Instrumentos Musicales</string>
+    <string name="joyas">Joyas y Relojes</string>
+    <string name="juegos">Juegos y Juguetes</string>
+    <string name="libros">Libros, Revistas y Comics</string>
+    <string name="musica">Musica, Peliculas y Series</string>
+    <string name="ropa">Ropa y Accesorios</string>
+    <string name="salud">Salud y Equipamiento Medico</string>
+    <string name="servicios">Servicios</string>
+    <string name="souvenirs">Souvenirs, Cotillon y Fiestas</string>
+    <string name="otrasCategorias">Otras categorias</string>
 </resources>

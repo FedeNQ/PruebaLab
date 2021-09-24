@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Fede/AndroidStudioProjects/PruebaLab/app/src/main/res/layout/activity_categoria.xml" value="0.33" />
         <entry key="..\:/Users/Fede/AndroidStudioProjects/PruebaLab/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Fede/AndroidStudioProjects/PruebaLab/app/src/main/res/layout/content_activity_categoria.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/Fede/AndroidStudioProjects/PruebaLab/app/src/main/res/layout/fila_cat.xml" value="0.25" />
       </map>
     </option>
   </component>
